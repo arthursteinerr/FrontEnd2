@@ -1,6 +1,6 @@
-<!-- Nomes dos Alunos: Ana Cecília, Arthur Steiner, Aryelle Pereira -->
-
 # Além da Lógica
+
+Nomes dos Alunos: Ana Cecília, Arthur Steiner, Aryelle Pereira
 
 **Descrição**:  
 O **Além da Lógica** é uma plataforma inovadora que combina narrativa e elementos visuais, permitindo que os usuários publiquem histórias curtas acompanhadas de GIFs. A ideia é dar vida às palavras através de imagens animadas, proporcionando uma experiência mais envolvente e criativa para quem conta e quem lê. Com um design simples e amigável, a plataforma facilita a criação e a visualização de conteúdos de forma rápida e intuitiva, tornando a interação mais dinâmica.
