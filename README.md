@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Além da Lógica
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Descrição**:  
+O **Além da Lógica** é uma plataforma inovadora que combina narrativa e elementos visuais, permitindo que os usuários publiquem histórias curtas acompanhadas de GIFs. A ideia é dar vida às palavras através de imagens animadas, proporcionando uma experiência mais envolvente e criativa para quem conta e quem lê. Com um design simples e amigável, a plataforma facilita a criação e a visualização de conteúdos de forma rápida e intuitiva, tornando a interação mais dinâmica.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Publicação de Histórias**: Os usuários podem criar e publicar suas histórias curtas.
+- **Incorporação de GIFs**: Cada história pode ser acompanhada por um GIF, permitindo uma representação visual das emoções e temas da narrativa.
+- **Visualização das Histórias**: Leitores podem navegar pelas histórias publicadas, visualizando o texto junto com os GIFs de forma fluida.
+- **Interface Responsiva**: A aplicação foi projetada para funcionar perfeitamente tanto em desktops quanto em dispositivos móveis.
+  
+## Tecnologias Utilizadas
 
-### `npm start`
+Este projeto foi construído utilizando um conjunto de tecnologias modernas e eficientes para garantir uma boa performance e manutenibilidade:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Biblioteca JavaScript para a criação de interfaces de usuário interativas e eficientes.
+- **JavaScript/TypeScript**: Linguagens de programação usadas para adicionar funcionalidade e garantir a tipagem estática no desenvolvimento.
+- **JSON**: Formato de intercâmbio de dados utilizado para armazenamento e manipulação das histórias e GIFs.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+Abaixo está uma visão geral da estrutura de diretórios do projeto, organizada para facilitar o desenvolvimento e a escalabilidade:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+📦além-da-logica
+ ┣ 📂src
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📜StoryForm.tsx      // Componente de formulário para criação de histórias
+ ┃ ┃ ┣ 📜GifDisplay.tsx     // Componente para exibição dos GIFs selecionados
+ ┃ ┣ 📂pages
+ ┃ ┃ ┣ 📜Home.tsx           // Página principal da aplicação
+ ┃ ┃ ┣ 📜Stories.tsx        // Página de exibição das histórias publicadas
+ ┃ ┣ 📂assets               // Imagens, ícones e outros arquivos estáticos
+ ┃ ┣ 📜App.tsx              // Componente principal da aplicação
+ ┃ ┗ 📂utils                // Funções utilitárias usadas em várias partes da aplicação
+ ┣ 📜README.md
+ ┣ 📜package.json
+ ┣ 📜tsconfig.json          // Configuração do TypeScript
+ ┗ 📜.gitignore
+```
 
-### `npm run build`
+### Componentes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **StoryForm.tsx**: Componente responsável pelo formulário de criação de novas histórias. Ele permite ao usuário inserir o texto da história e selecionar um GIF.
+- **GifDisplay.tsx**: Exibe o GIF selecionado junto com a história do usuário.
+  
+### Páginas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Home.tsx**: Página principal da aplicação, que fornece um ponto de entrada para o usuário explorar as histórias e criar novas.
+- **Stories.tsx**: Exibe todas as histórias publicadas, organizadas de forma que o leitor possa navegar e apreciar o conteúdo de maneira simples e rápida.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Outras pastas
 
-### `npm run eject`
+- **assets**: Contém arquivos de mídia, como imagens e ícones, usados na aplicação.
+- **utils**: Funções utilitárias e auxiliares que são reutilizadas em diferentes partes do projeto, facilitando a manutenção do código.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Como Funciona
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Publicação de Histórias**:  
+   Os usuários podem acessar a página principal e usar o formulário para escrever uma história. Eles também podem selecionar um GIF a partir de uma lista ou buscá-lo, dando à história um toque visual.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Visualização de Histórias**:  
+   Todas as histórias publicadas pelos usuários são exibidas em uma lista na página dedicada. O leitor pode clicar em qualquer história para visualizar o texto e o GIF em conjunto.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Interação com o GIF**:  
+   O usuário pode interagir com os GIFs para criar histórias mais expressivas. A integração é simples, focada em permitir que o GIF complemente a narrativa sem complicar a experiência do usuário.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Essa versão do README é mais completa e detalhada, descrevendo não apenas o projeto, mas também sua estrutura interna e como ele funciona. Ela dá uma visão clara de como a aplicação é organizada e do propósito de cada parte do código, além de explicar como a interação do usuário acontece.
