@@ -22,6 +22,7 @@ Este projeto foi construído utilizando um conjunto de tecnologias modernas e ef
 
 Abaixo está uma visão geral da estrutura de diretórios do projeto, organizada para facilitar o desenvolvimento e a escalabilidade:
 
+```
 📦 trabalho-front-end
  ┣ 📂src
  ┃ ┣ 📂components
@@ -43,6 +44,7 @@ Abaixo está uma visão geral da estrutura de diretórios do projeto, organizada
  ┣ 📜index.js               // Ponto de entrada da aplicação React
  ┣ 📜index.css              // Estilos globais da aplicação
  ┗ 📜App.css                // Estilos principais do aplicativo
+```
 
 ### Componentes
 
