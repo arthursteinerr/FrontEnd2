@@ -1,3 +1,5 @@
+<!-- Nomes dos Alunos: Ana Cecília, Arthur Steiner, Aryelle Pereira -->
+
 # Além da Lógica
 
 **Descrição**:  
