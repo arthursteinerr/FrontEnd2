@@ -50,32 +50,11 @@ Abaixo está uma visão geral da estrutura de diretórios do projeto, organizada
  ┗ 📜README.md
 ```
 
-### Componentes
-
-- **StoryForm.tsx**: Componente responsável pelo formulário de criação de novas histórias. Ele permite ao usuário inserir o texto da história e selecionar um GIF.
-- **GifDisplay.tsx**: Exibe o GIF selecionado junto com a história do usuário.
-  
-### Páginas
-
-- **Home.tsx**: Página principal da aplicação, que fornece um ponto de entrada para o usuário explorar as histórias e criar novas.
-- **Stories.tsx**: Exibe todas as histórias publicadas, organizadas de forma que o leitor possa navegar e apreciar o conteúdo de maneira simples e rápida.
-
-### Outras pastas
-
-- **assets**: Contém arquivos de mídia, como imagens e ícones, usados na aplicação.
-- **utils**: Funções utilitárias e auxiliares que são reutilizadas em diferentes partes do projeto, facilitando a manutenção do código.
-
 ## Como Funciona
 
 1. **Publicação de Histórias**:  
-   Os usuários podem acessar a página principal e usar o formulário para escrever uma história. Eles também podem selecionar um GIF a partir de uma lista ou buscá-lo, dando à história um toque visual.
+   Os usuários podem acessar a página principal e usar o formulário para escrever uma história. Eles também podem colocar a URL de um GIF, dando à história um toque visual.
 
 2. **Visualização de Histórias**:  
-   Todas as histórias publicadas pelos usuários são exibidas em uma lista na página dedicada. O leitor pode clicar em qualquer história para visualizar o texto e o GIF em conjunto.
+   Todas as histórias publicadas pelos usuários são exibidas em uma lista na página dedicada. O leitor pode ver todas as história e visualizar o GIF em conjunto.
 
-3. **Interação com o GIF**:  
-   O usuário pode interagir com os GIFs para criar histórias mais expressivas. A integração é simples, focada em permitir que o GIF complemente a narrativa sem complicar a experiência do usuário.
-
----
-
-Essa versão do README é mais completa e detalhada, descrevendo não apenas o projeto, mas também sua estrutura interna e como ele funciona. Ela dá uma visão clara de como a aplicação é organizada e do propósito de cada parte do código, além de explicar como a interação do usuário acontece.
