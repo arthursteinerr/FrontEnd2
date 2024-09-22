@@ -22,34 +22,27 @@ Este projeto foi construído utilizando um conjunto de tecnologias modernas e ef
 
 Abaixo está uma visão geral da estrutura de diretórios do projeto, organizada para facilitar o desenvolvimento e a escalabilidade:
 
-´´´
 📦 trabalho-front-end
- ┣ 📂public
  ┣ 📂src
  ┃ ┣ 📂components
- ┃ ┃ ┣ 📜Banner.css
- ┃ ┃ ┣ 📜Banner.js
- ┃ ┃ ┣ 📜Header.css
- ┃ ┃ ┣ 📜Header.js
- ┃ ┃ ┣ 📜Modal.css
- ┃ ┃ ┣ 📜Modal.js
- ┃ ┃ ┣ 📜PostForm.css
- ┃ ┃ ┣ 📜PostForm.js
- ┃ ┃ ┣ 📜PostItem.css
- ┃ ┃ ┣ 📜PostItem.js
- ┃ ┃
- ┃ ┣ 📜App.css
- ┃ ┣ 📜App.js
- ┃ ┣ 📜App.test.js
- ┃ ┣ 📜index.css
- ┃ ┣ 📜index.js
- ┃ ┣ 📜logo.svg
- ┃ ┣ 📜reportWebVitals.js
- ┣ 📜.gitignore
- ┣ 📜package-lock.json
- ┣ 📜package.json 
- ┗ 📜README.md
-´´´
+ ┃ ┃ ┣ 📜Banner.js          // Componente de banner para o topo da aplicação
+ ┃ ┃ ┣ 📜Header.js          // Cabeçalho da aplicação
+ ┃ ┃ ┣ 📜Modal.js           // Componente modal para exibição de informações
+ ┃ ┃ ┣ 📜PostForm.js        // Formulário de criação de posts
+ ┃ ┃ ┣ 📜PostItem.js        // Componente de exibição de um post individual
+ ┃ ┣ 📂pages
+ ┃ ┃ ┣ 📜Home.js            // Página principal que reúne os componentes
+ ┃ ┃ ┣ 📜Posts.js           // Página para exibição de posts publicados
+ ┃ ┣ 📂assets               // Arquivos de mídia, imagens, e outros recursos estáticos
+ ┃ ┣ 📜App.js               // Componente raiz da aplicação
+ ┃ ┗ 📂utils                // Funções utilitárias utilizadas no projeto
+ ┣ 📜README.md              // Documentação do projeto
+ ┣ 📜package.json           // Gerenciamento de dependências do projeto
+ ┣ 📜.gitignore             // Arquivos a serem ignorados pelo Git
+ ┣ 📜package-lock.json      // Bloqueio de versão exata das dependências instaladas
+ ┣ 📜index.js               // Ponto de entrada da aplicação React
+ ┣ 📜index.css              // Estilos globais da aplicação
+ ┗ 📜App.css                // Estilos principais do aplicativo
 
 ### Componentes
 
