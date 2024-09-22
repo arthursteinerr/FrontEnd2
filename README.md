@@ -22,23 +22,34 @@ Este projeto foi construído utilizando um conjunto de tecnologias modernas e ef
 
 Abaixo está uma visão geral da estrutura de diretórios do projeto, organizada para facilitar o desenvolvimento e a escalabilidade:
 
-```
-📦além-da-logica
+´´´
+📦 trabalho-front-end
+ ┣ 📂public
  ┣ 📂src
  ┃ ┣ 📂components
- ┃ ┃ ┣ 📜StoryForm.tsx      // Componente de formulário para criação de histórias
- ┃ ┃ ┣ 📜GifDisplay.tsx     // Componente para exibição dos GIFs selecionados
- ┃ ┣ 📂pages
- ┃ ┃ ┣ 📜Home.tsx           // Página principal da aplicação
- ┃ ┃ ┣ 📜Stories.tsx        // Página de exibição das histórias publicadas
- ┃ ┣ 📂assets               // Imagens, ícones e outros arquivos estáticos
- ┃ ┣ 📜App.tsx              // Componente principal da aplicação
- ┃ ┗ 📂utils                // Funções utilitárias usadas em várias partes da aplicação
- ┣ 📜README.md
- ┣ 📜package.json
- ┣ 📜tsconfig.json          // Configuração do TypeScript
- ┗ 📜.gitignore
-```
+ ┃ ┃ ┣ 📜Banner.css
+ ┃ ┃ ┣ 📜Banner.js
+ ┃ ┃ ┣ 📜Header.css
+ ┃ ┃ ┣ 📜Header.js
+ ┃ ┃ ┣ 📜Modal.css
+ ┃ ┃ ┣ 📜Modal.js
+ ┃ ┃ ┣ 📜PostForm.css
+ ┃ ┃ ┣ 📜PostForm.js
+ ┃ ┃ ┣ 📜PostItem.css
+ ┃ ┃ ┣ 📜PostItem.js
+ ┃ ┃
+ ┃ ┣ 📜App.css
+ ┃ ┣ 📜App.js
+ ┃ ┣ 📜App.test.js
+ ┃ ┣ 📜index.css
+ ┃ ┣ 📜index.js
+ ┃ ┣ 📜logo.svg
+ ┃ ┣ 📜reportWebVitals.js
+ ┣ 📜.gitignore
+ ┣ 📜package-lock.json
+ ┣ 📜package.json 
+ ┗ 📜README.md
+´´´
 
 ### Componentes
 
