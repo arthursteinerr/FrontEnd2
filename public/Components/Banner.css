@@ -1,0 +1,34 @@
+.styles-gif {
+  width: auto; 
+  max-width: 250px; 
+  height: auto; 
+  border: 5px solid #ddd;  
+  border-radius: 10px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  overflow: hidden; 
+}
+
+.styles-gif:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); 
+}
+
+.styles-gif::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 10px; 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+}
+
+.styles-gif:hover::after {
+  opacity: 1; 
+}
+
+.styles-gif:hover {
+  filter: brightness(1.1); 
+}
